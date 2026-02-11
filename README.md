@@ -16,8 +16,11 @@ Este repositorio fue elegido por tratarse de un proyecto activo y ampliamente ut
 Aplicar técnicas clásicas de Procesamiento de Lenguaje Natural para analizar el sentimiento, los temas recurrentes y la similitud textual en mensajes de issues y pull requests de un repositorio Git, con el fin de evaluar patrones de interacción y contenido técnico
 
 
-## Estructura del Repositorio 
+## Estructura del Repositorio
 
+```
+analisis-opinion-github-pln-grupo2/
+│
 ├── data/
 │   └── mensajes.csv
 │
@@ -25,13 +28,14 @@ Aplicar técnicas clásicas de Procesamiento de Lenguaje Natural para analizar e
 │   └── proyecto_pln.ipynb
 │
 └── README.md
+```
+
+- **data/**: Contiene el dataset generado en formato CSV.
+- **src/**: Contiene el notebook con el código fuente del proyecto.
+- **README.md**: Documento descriptivo del proyecto.
 
 
-- data/: Contiene el dataset generado a partir de la recolección de datos en formato CSV.
 
-- src/: Contiene el notebook con el código fuente del proyecto.
-
-- README.md: Documento descriptivo del proyecto.
 
 
 ## Metodología Implementada
